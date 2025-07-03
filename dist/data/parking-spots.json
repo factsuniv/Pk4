@@ -1,0 +1,213 @@
+{
+  "downtown_dallas": [
+    {
+      "id": "dd_001",
+      "parker_name": "Sarah M.",
+      "parker_rating": 4.9,
+      "location": {
+        "name": "Main Street Financial District",
+        "address": "1500 Main St, Dallas, TX 75201",
+        "lat": 32.7854,
+        "lng": -96.8023
+      },
+      "price": 18,
+      "availability": {
+        "start": "06:00",
+        "end": "09:00",
+        "status": "available"
+      },
+      "spot_type": "covered",
+      "distance_walk": "2 min walk to office buildings",
+      "amenities": ["covered", "secure", "valet_service"],
+      "parker_photo": "/images/parker1.jpg",
+      "spot_photos": ["/images/spot1.jpg"],
+      "earnings": 126
+    },
+    {
+      "id": "dd_002",
+      "parker_name": "Marcus J.",
+      "parker_rating": 4.8,
+      "location": {
+        "name": "Elm Street Business Center",
+        "address": "1400 Elm St, Dallas, TX 75202",
+        "lat": 32.7838,
+        "lng": -96.8026
+      },
+      "price": 22,
+      "availability": {
+        "start": "06:30",
+        "end": "09:30",
+        "status": "available"
+      },
+      "spot_type": "premium",
+      "distance_walk": "1 min walk to entrance",
+      "amenities": ["covered", "security_cameras", "premium_location"],
+      "parker_photo": "/images/parker2.jpg",
+      "spot_photos": ["/images/spot2.jpg"],
+      "earnings": 198
+    },
+    {
+      "id": "dd_003",
+      "parker_name": "Jennifer L.",
+      "parker_rating": 4.7,
+      "location": {
+        "name": "Commerce Street Plaza",
+        "address": "1200 Commerce St, Dallas, TX 75202",
+        "lat": 32.7812,
+        "lng": -96.8019
+      },
+      "price": 15,
+      "availability": {
+        "start": "07:00",
+        "end": "10:00",
+        "status": "available"
+      },
+      "spot_type": "standard",
+      "distance_walk": "3 min walk to plaza",
+      "amenities": ["street_level", "safe_area"],
+      "parker_photo": "/images/parker3.jpg",
+      "spot_photos": ["/images/spot3.jpg"],
+      "earnings": 89
+    },
+    {
+      "id": "dd_004",
+      "parker_name": "David K.",
+      "parker_rating": 4.9,
+      "location": {
+        "name": "Federal Reserve District",
+        "address": "1100 Pacific Ave, Dallas, TX 75202",
+        "lat": 32.7825,
+        "lng": -96.8008
+      },
+      "price": 25,
+      "availability": {
+        "start": "06:15",
+        "end": "09:15",
+        "status": "reserved"
+      },
+      "spot_type": "premium",
+      "distance_walk": "30 sec walk to building",
+      "amenities": ["valet_service", "premium_location", "instant_confirmation"],
+      "parker_photo": "/images/parker4.jpg",
+      "spot_photos": ["/images/spot4.jpg"],
+      "earnings": 342
+    },
+    {
+      "id": "dd_005",
+      "parker_name": "Anna W.",
+      "parker_rating": 4.6,
+      "location": {
+        "name": "Deep Ellum Border",
+        "address": "2200 Main St, Dallas, TX 75226",
+        "lat": 32.7842,
+        "lng": -96.7856
+      },
+      "price": 12,
+      "availability": {
+        "start": "07:30",
+        "end": "10:30",
+        "status": "available"
+      },
+      "spot_type": "economy",
+      "distance_walk": "5 min walk to main area",
+      "amenities": ["street_parking", "safe_neighborhood"],
+      "parker_photo": "/images/parker5.jpg",
+      "spot_photos": ["/images/spot5.jpg"],
+      "earnings": 67
+    }
+  ],
+  "legacy_plano": [
+    {
+      "id": "lp_001",
+      "parker_name": "Michael R.",
+      "parker_rating": 4.8,
+      "location": {
+        "name": "Legacy West Main Entrance",
+        "address": "7400 Bishop Rd, Plano, TX 75024",
+        "lat": 33.0751,
+        "lng": -96.8236
+      },
+      "price": 16,
+      "availability": {
+        "start": "17:00",
+        "end": "23:00",
+        "status": "available"
+      },
+      "spot_type": "premium",
+      "distance_walk": "1 min to shops & restaurants",
+      "amenities": ["covered", "well_lit", "shopping_access"],
+      "parker_photo": "/images/parker6.jpg",
+      "spot_photos": ["/images/spot6.jpg"],
+      "earnings": 145
+    },
+    {
+      "id": "lp_002",
+      "parker_name": "Lisa H.",
+      "parker_rating": 4.9,
+      "location": {
+        "name": "Grandscape Entertainment District",
+        "address": "5752 Grandscape Blvd, The Colony, TX 75056",
+        "lat": 33.0892,
+        "lng": -96.8964
+      },
+      "price": 20,
+      "availability": {
+        "start": "18:00",
+        "end": "24:00",
+        "status": "available"
+      },
+      "spot_type": "premium",
+      "distance_walk": "2 min to entertainment venues",
+      "amenities": ["valet_service", "premium_location", "entertainment_access"],
+      "parker_photo": "/images/parker7.jpg",
+      "spot_photos": ["/images/spot7.jpg"],
+      "earnings": 234
+    },
+    {
+      "id": "lp_003",
+      "parker_name": "Robert C.",
+      "parker_rating": 4.7,
+      "location": {
+        "name": "Legacy Village Center",
+        "address": "7501 Lone Star Dr, Plano, TX 75024",
+        "lat": 33.0758,
+        "lng": -96.8201
+      },
+      "price": 14,
+      "availability": {
+        "start": "16:30",
+        "end": "22:30",
+        "status": "available"
+      },
+      "spot_type": "standard",
+      "distance_walk": "3 min to village center",
+      "amenities": ["covered", "safe_area", "dining_nearby"],
+      "parker_photo": "/images/parker8.jpg",
+      "spot_photos": ["/images/spot8.jpg"],
+      "earnings": 98
+    },
+    {
+      "id": "lp_004",
+      "parker_name": "Rachel S.",
+      "parker_rating": 4.8,
+      "location": {
+        "name": "Shops at Legacy",
+        "address": "7200 Bishop Rd, Plano, TX 75024",
+        "lat": 33.0745,
+        "lng": -96.8228
+      },
+      "price": 18,
+      "availability": {
+        "start": "17:30",
+        "end": "23:30",
+        "status": "available"
+      },
+      "spot_type": "premium",
+      "distance_walk": "1 min to luxury shopping",
+      "amenities": ["covered", "luxury_access", "valet_available"],
+      "parker_photo": "/images/parker9.jpg",
+      "spot_photos": ["/images/spot9.jpg"],
+      "earnings": 167
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "app": {
+    "name": "Parkr",
+    "tagline": "Premium Valet Parking On-Demand",
+    "version": "1.0.0",
+    "brand_color": "#0066FF",
+    "secondary_color": "#F8FAFC"
+  },
+  "demo_user": {
+    "name": "Alex Johnson",
+    "email": "alex@demo.com",
+    "phone": "+1 (214) 555-0123",
+    "rating": 4.8,
+    "total_bookings": 47,
+    "member_since": "2024"
+  },
+  "pricing": {
+    "base_fee": 2.99,
+    "service_fee_percentage": 8,
+    "parker_minimum_payout": 7,
+    "currency": "USD"
+  },
+  "locations": {
+    "dallas_downtown": {
+      "name": "Downtown Dallas",
+      "center": {
+        "lat": 32.7831,
+        "lng": -96.8009
+      },
+      "zoom": 15,
+      "peak_hours": ["06:00-09:00", "17:00-19:00"],
+      "average_price": 18
+    },
+    "legacy_plano": {
+      "name": "Legacy/Plano",
+      "center": {
+        "lat": 33.0751,
+        "lng": -96.8236
+      },
+      "zoom": 14,
+      "peak_hours": ["17:00-23:00"],
+      "average_price": 16
+    }
+  }
+}
